@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо учня</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .projects, .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin: 10px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Портфоліо учня</h1>
+    <p>Ім'я учня: Іван Іваненко</p>
+    <p>Клас: 9-А</p>
+</header>
+
+<nav>
+    <a href="#about">Про мене</a>
+    <a href="#projects">Проєкти</a>
+    <a href="#achievements">Досягнення</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>Про мене</h2>
+    <p>Привіт! Я Іван Іваненко, учень 9-А класу. Захоплююся програмуванням, математикою та робототехнікою. У вільний час люблю читати книжки та грати в шахи. Моя мета — стати інженером і розвивати інноваційні технології в майбутньому.</p>
+</section>
+
+<section id="projects" class="container">
+    <h2>Проєкти</h2>
+    <div class="projects">
+        <div class="card">
+            <img src="project1.jpg" alt="Проєкт 1">
+            <h3>Проєкт 1: Роботизована рука</h3>
+            <p>Опис: Цей проєкт був створений для шкільного конкурсу з робототехніки. Роботизована рука керується за допомогою Arduino.</p>
+        </div>
+        <div class="card">
+            <img src="project2.jpg" alt="Проєкт 2">
+            <h3>Проєкт 2: Веб-сайт для школи</h3>
+            <p>Опис: Створив веб-сайт для шкільного клубу інформатики з використанням HTML, CSS та JavaScript.</p>
+        </div>
+    </div>
+</section>
+
+<section id="achievements" class="container">
+    <h2>Досягнення</h2>
+    <div class="achievements">
+        <div class="card">
+            <h3>Олімпіада з математики</h3>
+            <p>ІІ місце на районній олімпіаді з математики у 2023 році.</p>
+        </div>
+        <div class="card">
+            <h3>Конкурс робототехніки</h3>
+            <p>І місце у шкільному конкурсі з робототехніки.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Контакти</h2>
+    <p>Email: ivan.ivanenko@email.com</p>
+    <p>Телефон: +380 (12) 345-67-89</p>
+</section>
+
+<footer>
+    <p>© 2024 Портфоліо учня. Всі права захищено.</p>
+</footer>
+
+</body>
+</html>
